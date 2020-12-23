@@ -18,6 +18,8 @@
             }
 
 
+
+
         </style>
     </head>
     <body>
@@ -34,17 +36,17 @@
             <br>
             <br>
             <label for="">
-                Result: {{ test }}
+                Result: {{ expression }} {{ answer }}
             </label>
             <br>
             <label for="">
-                Test
+                {{ error_message }}
             </label>
-                <br>
-            <button class="myButton" name="operator" value="add">+</button>
-            <button class="otherButtons" name="operator" value="subtract">-</button>
-            <button class="otherButtons" name="operator" value="multiply">*</button>
-            <button class="otherButtons" name="operator" value="divide">/</button>
+            <br>
+            <button class="myButton" name="operator" value="+">+</button>
+            <button class="otherButtons" name="operator" value="-">-</button>
+            <button class="otherButtons" name="operator" value="*">*</button>
+            <button class="otherButtons" name="operator" value="/">/</button>
         </form>
     </body>
 </html>
